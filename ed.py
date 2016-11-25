@@ -1,7 +1,4 @@
-""" UCR_ED for Python
-Created on 24.11.2016
-@author: skahl
-
+"""
 Python implementation of UCR-ED algorithm from:
 
 Rakthanmanon, T., Campana, B., Mueen, A., Batista, G., Westover, B., Zhu, Q., et al. (2012). 
@@ -12,7 +9,7 @@ http://doi.org/10.1145/2339530.2339576
 !!! Left out the file reading and the algorithm's optimization regarding it.
 """
 
-from numpy import abs, sqrt, inf, std, mean
+from numpy import abs, sqrt, inf, sum
 
 def distance(Q, T, j, m, _mean, _std, order, bsf):
     _sum = 0.
