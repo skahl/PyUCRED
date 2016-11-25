@@ -9,7 +9,7 @@ http://doi.org/10.1145/2339530.2339576
 !!! Left out the file reading and the algorithm's optimization regarding it.
 """
 
-from numpy import abs, sqrt, inf, sum
+from numpy import abs, sqrt, inf, mean, std
 
 def distance(Q, T, j, m, _mean, _std, order, bsf):
     _sum = 0.
